@@ -32,9 +32,7 @@ for(var i = 0; i < 10; i++){
   //Check to see if the newName is equal to any of the existing names
   // function checkDuplicate(){
   // for(var i = 0; i < fullNames.length; i++){
-  //   if(newName === fullNames[i]){ //if the newName is equal to any of the names already in the array, we will need to call the function again to generate a new name
-  //     console.log("duplicate name");
-          // randomFirst(firstNames) + " " + randomLast(lastNames)
+  //   if(newName === fullNames[i]){ //if the newName is equal to any of the names already in the array, we will need to call the function again to generate a new name and go back through the loop again
   //   } else {  //otherwise, we can push that new name to the fullNames array
   //     fullNames.push(newName);
   //     console.log(newName);

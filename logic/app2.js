@@ -5,7 +5,7 @@ console.log(lineLength(0, 4, 4, 4)); //4
 console.log(lineLength(0, 0, 4, 0)); //4
 console.log(lineLength(4, 4, 4, 0)); //4
 console.log(lineLength(0, 4, 0, 0)); //4
-//hmmm all of these values equal four
+//hmmm...all of these values equal four
 //
 function isSquare(a,b, a1, b1, a2, b2, a3, b3) {
   //a square is equal lengths on all sides so we need to check and see if all sides(lines) are equal to each other
@@ -18,4 +18,4 @@ function isSquare(a,b, a1, b1, a2, b2, a3, b3) {
   return false;
 };
 }
-isSquare(0, 4, 4, 4, 4, 0, 0, 0); //be sure to call the function
+isSquare(0, 4, 4, 4, 4, 0, 0, 0); //be sure to call the function!
